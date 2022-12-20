@@ -4,7 +4,6 @@ float eingabeZahl() {
   
   float zahl;
   
-  printf("Geben sie 2 Zahlen an\n");
   printf("Zahl: \n");
   scanf("%f", &zahl);
   return zahl;
@@ -28,6 +27,7 @@ void ausgabeErgebnis(float ergebnis) {
 
 int main() {
   
+  printf("Geben sie 2 Zahlen an\n");
   float zahl1 = eingabeZahl();
   float zahl2 = eingabeZahl();
   float ergebnis = multipliziere(zahl1, zahl2);
