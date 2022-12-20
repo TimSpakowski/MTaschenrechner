@@ -2,20 +2,21 @@
 
 float eingabeZahl() {
   
-  float zahl1, zahl2;
+  float zahl;
   
   printf("Geben sie 2 Zahlen an\n");
   printf("Zahl Nummer 1: \n");
-  scanf("%f", &zahl1);
-  printf("Zahl Nummer 2: \n");
-  scanf("%f", &zahl2);
+  scanf("%f", &zahl);
+  return zahl1;
+  
+  
   
 }
 
 float multipliziere(float zahl1, float zahl2) {
   
   float ergebnis;
-  ergebnis = zahl1 * zahl2;
+  return(zahl1 * zahl2);
   
 }
 
@@ -27,8 +28,10 @@ void ausgabeErgebnis(float ergebnis) {
 
 int main() {
   
-  eingabeZahl();
-  multipliziere(zahl1, zahl2);
+  float zahl1 = eingabeZahl();
+  float zahl2 = eingabeZahl();
+  float ergebnis = multipliziere(zahl1, zahl2);
   ausgabeErgebnis(ergebnis);
+  return 0;
   
 }
