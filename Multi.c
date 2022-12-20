@@ -6,7 +6,7 @@ float eingabeZahl() {
   
   printf("Geben sie 2 Zahlen an\n");
   printf("Zahl Nummer 1: \n");
-  scanf("%f", &zahl1)
+  scanf("%f", &zahl1);
   printf("Zahl Nummer 2: \n");
   scanf("%f", &zahl2);
   
