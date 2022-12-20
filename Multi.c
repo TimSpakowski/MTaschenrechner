@@ -25,7 +25,7 @@ void ausgabeErgebnis(float ergebnis) {
   
 }
 
-int main {
+int main() {
   
   eingabeZahl();
   multipliziere(zahl1, zahl2);
