@@ -8,8 +8,6 @@ float eingabeZahl() {
   scanf("%f", &zahl);
   return zahl;
   
-  
-  
 }
 
 float multipliziere(float zahl1, float zahl2) {
